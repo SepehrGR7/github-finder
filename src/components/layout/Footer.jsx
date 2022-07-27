@@ -2,8 +2,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className='p-5 bg-gray-700 text-primary-content footer-center'>
-      <div className='mb-3'>
+    <footer className='gap-4 p-5 bg-gray-700 footer text-primary-content footer-center'>
+      <div>
         <svg
           width='60'
           height='60'
