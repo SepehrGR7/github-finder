@@ -3,10 +3,10 @@ const Footer = () => {
 
   return (
     <footer className='p-5 bg-gray-700 text-primary-content footer-center'>
-      <div className='mb-5'>
+      <div className='mb-3'>
         <svg
-          width='50'
-          height='50'
+          width='60'
+          height='60'
           viewBox='0 0 535 535'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
