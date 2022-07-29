@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Spinner from '../layout/Spinner'
 
 const UserResults = () => {
   const [users, setUsers] = useState([])
@@ -21,7 +22,7 @@ const UserResults = () => {
   }, [])
 
   return loading ? (
-    <h1>Loading...</h1>
+    <Spinner />
   ) : (
     <div className='grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
       {users.map(user => (
